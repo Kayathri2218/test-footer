@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #818880;
+    font-family: Arial;
+}
+.footer-sec{
+    margin: 20px;;
+}
+.content-head {
+    text-align: center;
+}
+.content-head h2{
+    color: #26b017;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+.content-head p{
+    margin: 10px;
+}
+.container.foot{
+    width: 90%;
+    margin: auto;
+}
+.col1{
+    display: flex;
+}
+.footer-col{
+    width: 33.3%;
+    text-align: center;   
+    border-left: 1px solid #a2aba1;
+}
+.icon i{
+    color: #26b017;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.content h4{
+    padding-bottom: 15px;
+}
+.content p{
+    color: #000;
+}
+.input1-form{
+    display: flex;
+    margin: 20px;;
+}
+.input{
+    width: 50%;
+    padding: 10px 15px 0 20px;
+}
+.input input{
+    width: 100%;
+    padding: 10px;
+}
+.input2-form{
+    padding: 10px 40px 20px 40px;
+}
+.input2-form input{
+    width: 100%;
+    padding: 10px;
+}
+.input3-form{
+    padding: 10px 40px 10px 40px;
+}
+.input3-form textarea{
+    width: 100%;
+    padding: 5px;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    color: #fff;
+    width: 15%;
+    padding: 10px;
+    background-color: #26b017;
+    border: none;
+}
+
+
+@media (min-width: 320px){
+    .container.foot{
+        width: 90%;
+        margin: auto;
+    }
+    .footer-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .col1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-col{
+        width: 900%;
+        margin: auto;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #a2aba1;
+    }
+    .col2{
+        width: 100%;
+    }
+}
+
+@media (min-width: 690px){
+    .container.foot{
+        width: 100%;
+    }
+    .footer-row{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .col1{
+        width: 100%;
+        display: flex;
+    }
+    .footer-col{
+        width: 33.3%;
+        border-bottom: none;
+    }
+    .col2{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1020px){
+    .container.foot{
+        width: 100%;
+    }
+    .footer-row{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .col1{
+        width: 100%;
+        display: flex;
+    }
+    .footer-col{
+        width: 33.3%;
+        border-bottom: none;
+    }
+    .col2{
+        width: 100%;
+    }
+}
